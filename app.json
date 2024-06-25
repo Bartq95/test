@@ -14,6 +14,7 @@
         {
             "name": "My Example App",
             "bundleIdentifier": "com.example.myapp",
+            "marketplaceID": "abc",
             "developerName": "Example Developer",
             "subtitle": "An awesome app.",
             "localizedDescription": "This is an awesome app only available on AltStore.",
@@ -60,6 +61,7 @@
         {
             "name": "Another Example App",
             "bundleIdentifier": "com.example.anotherapp",
+            "marketplaceID": "cde",
             "developerName": "Example Developer",
             "subtitle": "Another awesome app.",
             "localizedDescription": "This is another awesome app only available on AltStore.",
@@ -123,28 +125,6 @@
                     "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
                 }
             }
-        }
-    ],
-    "news": [
-        {
-            "title": "New Feature Announcement",
-            "identifier": "new_feature",
-            "caption": "Introducing a new feature in AltStore!",
-            "date": "2023-03-15",
-            "tintColor": "#5CA399",
-            "imageURL": "https://example.com/new_feature_image.png",
-            "notify": true,
-            "url": "https://example.com/new_feature_details"
-        },
-        {
-            "title": "App Update Available",
-            "identifier": "app_update",
-            "caption": "An update is available for My Example App.",
-            "date": "2023-03-10T10:00:00-07:00",
-            "tintColor": "#3660A2",
-            "imageURL": "https://example.com/app_update_image.png",
-            "notify": false,
-            "appID": "com.example.myapp"
         }
     ]
 }
